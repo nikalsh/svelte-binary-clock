@@ -1,6 +1,4 @@
 <script>
-    export let name;
-
     let bits = [8, 4, 2, 1];
 
     let binaryClock = {
