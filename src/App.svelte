@@ -91,10 +91,24 @@
             {/each}
 
         </table>
+
+    </div>
+    <div class="footer">
+        <a href="https://github.com/nikalsh/svelte-binary-clock">source</a>
     </div>
 </main>
 
 <style>
+    .footer {
+        text-align: center;
+        padding-bottom: 25px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
     .container {
         display: flex;
         justify-content: center;
