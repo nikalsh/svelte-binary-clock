@@ -9,7 +9,7 @@ Binary clock with Svelte for fun.
 
 Every second it takes the current time, converts it, and displays it like a convential binary clock, in decimal form but binary-encoded 10s and 1s.
 
-[![](https://github.com/nikalsh/svelte-binary-clock/blob/master/screenshot.PNG?raw=true)](#)
+[![](https://github.com/nikalsh/svelte-binary-clock/blob/master/screenshot.png?raw=true)](#)
 
 To get the 1s from the time, use modulo 10. Then iterate over the bits with right-shift. Get the value of the current bit by doing bitwise AND (&) with 1.
 
