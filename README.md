@@ -7,7 +7,7 @@ Binary clock with Svelte for fun.
 
 ### How it works
 
-Every second it takes the current time, converts it, and displays it like a convential binary clock, in decimal form but binary-encoded 10s and 1s.
+Every second it takes the current time, converts it, and displays it like a conventional binary clock, in decimal form but binary-encoded 10s and 1s.
 
 [![](https://github.com/nikalsh/svelte-binary-clock/blob/master/screenshot.png?raw=true)](#)
 
